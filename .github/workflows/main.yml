@@ -13,7 +13,7 @@ jobs:
         run: echo "This workflow run successfully for this particular action"
 
       - name: Stimulating the error
-        run: echo "Error taking place"; exit 1
+        run: echo "Error taking place"; 
 
 
 
