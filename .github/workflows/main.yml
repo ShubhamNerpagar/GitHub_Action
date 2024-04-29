@@ -12,6 +12,9 @@ jobs:
       - name: Run a sample github action
         run: echo "This workflow run successfully for this particular action"
 
+      - name: Stimulating the error
+        run: echo "Error taking place"; exit 1
+
 
 
 
